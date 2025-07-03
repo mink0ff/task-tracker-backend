@@ -1,0 +1,57 @@
+# Byte-compiled / compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.*
+
+# Docker
+*.log
+docker-compose.override.yml
+*.pid
+
+# VSCode settings
+.vscode/
+
+# macOS files
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Git files
+*.swp
+*~
+
+# Coverage reports
+htmlcov/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Test output
+test-output/
+
+# Mypy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Node stuff (if using frontend in monorepo)
+node_modules/

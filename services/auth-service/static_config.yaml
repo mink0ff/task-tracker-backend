@@ -1,0 +1,12 @@
+server:
+  listen-port: 8080
+components:
+  http-client:
+  redis:
+    redis-uri: "redis://localhost:6379"
+  postgresql:
+    host: localhost
+    port: 5432
+    user: user
+    password: password
+    dbname: tasktracker
